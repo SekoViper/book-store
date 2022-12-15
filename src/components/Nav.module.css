@@ -26,10 +26,10 @@
   font-size: 30px;
 }
 
-.logo a {
-  color: #0290ff;
-}
-
 a {
   text-decoration: none;
+}
+
+.logo a {
+  color: #0290ff;
 }
