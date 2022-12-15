@@ -25,7 +25,7 @@
 
 # 📖 Book Store <a name="about-project"></a>
 
-> A platform where you can do mathematical calculations
+> An online platform where you can buy your favorite books from.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,7 +53,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **An online platform where you can buy your favorite books from.**
+- **Read with cahpter**
+- **Track your reading progress**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
