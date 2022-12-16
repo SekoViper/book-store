@@ -2,11 +2,16 @@ import React from 'react';
 import AddBook from './AddBook';
 import BooksList from './BooksList';
 
+const books = [
+  { id: 1, title: 'Name the Tree', author: 'Seko' },
+  { id: 2, title: 'How We became Men', author: 'SekoViper' },
+  { id: 3, title: 'In the Wonder', author: 'Yonas' },
+];
+
 const Books = () => (
   <>
-    <BooksList title="Name the Tree" author="Seko" />
-    <BooksList title="How We became Men" author="SekoViper" />
-    <AddBook title="Add New Book" />
+    <BooksList books={books} />
+    <AddBook />
   </>
 );
 
