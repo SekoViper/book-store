@@ -25,8 +25,6 @@
 
 # 📖 Book Store <a name="about-project"></a>
 
-> An app to read your favorite books
-=======
 > An online platform where you can buy your favorite books from.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -35,22 +33,6 @@
 - CSS
 - JavaScript
 - React
-
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">REACT</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">JavaScript (ES6/ES7..)</a></li>
-    <li><a href="https://webpack.js.org/">JSX</a></li>
-  </ul>
-</details>
-
 
 ### Key Features <a name="key-features"></a>
 
@@ -100,20 +82,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Read with cahpter**
+- **Read with chapster**
 - **Track your reading progress**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-> To get a local copy up and running, follow these steps.
-
-- `npm install` --> For uploading all the necessary packages.
-
-- `npm start` --> to launch in local server
-
 
 ### Prerequisites
 
