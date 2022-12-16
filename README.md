@@ -30,10 +30,39 @@
 ## 🛠 Built With <a name="built-with"></a>
 
 - JSX
-
 - CSS
-
 - JavaScript
+- React
+
+### Key Features <a name="key-features"></a>
+
+- **Read Books**
+- **Keep track of the chapters read**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> To get a local copy up and running, follow these steps.
+
+- `git clone` --> Using your terminal
+- `npm install` --> For uploading all the necessary packages.
+
+- `npm start` --> to launch in local server
+
+
+### Prerequisites
+
+> In order to run this project you need:
+
+- GitHub flow
+- Gitflow
+- HTML and CSS
+- JAVASCRIPT (ES6/...)
+- npm
+- node.js
+- Any code editer (vs code)
 
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -53,20 +82,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Read with cahpter**
+- **Read with chapster**
 - **Track your reading progress**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-> To get a local copy up and running, follow these steps.
-
-- `npm install` --> For uploading all the necessary packages.
-
-- `npm start` --> to launch in local server
-
 
 ### Prerequisites
 
@@ -79,8 +98,6 @@
 - npm
 - node.js
 - Any code editer (vs code)
-
-### Setup
 
 > Clone this repository to your desired folder:
 
@@ -115,10 +132,7 @@
 - Twitter: [@SekoViper](https://twitter.com/SekoViper)
 - LinkedIn: [@livingstone-dameh](https://www.linkedin.com/in/livingstone-dameh-b755a5151/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
 
 <!-- CONTRIBUTING -->
 
@@ -146,4 +160,3 @@
 
 > This project is [MIT](./LICENSE) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
