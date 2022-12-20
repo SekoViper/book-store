@@ -1,6 +1,7 @@
 import { PropTypes } from 'prop-types';
 import styles from './BookList.module.css';
 
+// generate a book
 const BooksList = ({ books }) => (
   <div className={styles.books}>
     {books.map((book) => (
@@ -30,7 +31,14 @@ const BooksList = ({ books }) => (
   </div>
 );
 
+// props validation
 BooksList.defaultProps = { books: null };
-BooksList.propTypes = { books: PropTypes.string };
+BooksList.propTypes = {
+  books: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.number,
+    title: PropTypes.string,
+    author: PropTypes.string,
+  })),
+};
 
 export default BooksList;

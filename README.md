@@ -1,6 +1,10 @@
-# Book Store
+This app is a bookstore app which is built with React.
 
-<a name="readme-top"></a>
+<div id="readme-top" align="center">
+
+  <img src="https://github.com/microverseinc/readme-template/blob/master/murple_logo.png" alt="logo" width="140"  height="auto" />
+
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -10,153 +14,129 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Author](#author)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Book Store <a name="about-project"></a>
+# 📖 Bookstore-app <a name="about-project"></a>
 
-> An online platform where you can buy your favorite books from.
+**Bookstore** is a project which is created using React. For this project I built a bookstore app which allows an admin to add books and users to leave a comment and more...more features to be added😃
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- JSX
-- CSS
-- JavaScript
-- React
-
-### Key Features <a name="key-features"></a>
-
-- **Read Books**
-- **Keep track of the chapters read**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-> To get a local copy up and running, follow these steps.
-
-- `git clone` --> Using your terminal
-- `npm install` --> For uploading all the necessary packages.
-
-- `npm start` --> to launch in local server
-
-
-### Prerequisites
-
-> In order to run this project you need:
-
-- GitHub flow
-- Gitflow
-- HTML and CSS
-- JAVASCRIPT (ES6/...)
-- npm
-- node.js
-- Any code editer (vs code)
-
-
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">REACT</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">CSS</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">JavaScript (ES6/ES7..)</a></li>
-    <li><a href="https://webpack.js.org/">JSX</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://webpack.js.org/">webpack</a></li>
   </ul>
 </details>
 
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Read with chapster**
-- **Track your reading progress**
+- **Take user input**
+- **Adds books using API**
+- **Removes books using API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](#)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-> In order to run this project you need:
+In order to run this project you need:
 
-- GitHub flow
-- Gitflow
-- HTML and CSS
-- JAVASCRIPT (ES6/...)
 - npm
-- node.js
+- Node.js
 - Any code editer (vs code)
 
-> Clone this repository to your desired folder:
+### Setup
 
-- `https://github.com/SekoViper/book-store.git`
+Clone this repository to your desired folder:
+
+- Run `git clone https://github.com/SekoViper/book-store.git`
 
 ### Install
 
-> Install this project with:
+Install this project with:
 
-- `npm install`
+```sh
+  cd book-store
+  npm install
+```
 
 ### Usage
 
-> To run the project, execute the following command:
+To run the project, execute the following command:
 
-- Run `npm start` to run app in local server with webpack
+```sh
+  npm start
+```
 
+### Run tests
+
+```sh
+  npm test
+```
 
 ### Deployment
 
-> You can deploy this project using:
-
-> npm run deploy - Deploys using gh-pages
+`npm run deploy` - Deploys using gh-pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHOR -->
-
-👤 **Seko Dameh**
+## 👤 Author
 
 - GitHub: [@SekoViper](https://github.com/SekoViper)
 - Twitter: [@SekoViper](https://twitter.com/SekoViper)
 - LinkedIn: [@livingstone-dameh](https://www.linkedin.com/in/livingstone-dameh-b755a5151/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 🤝 Contributing
 
-<!-- CONTRIBUTING -->
+Contributions, issues, and feature requests are welcome!
 
-## 🤝 Contributing <a name="contributing"></a>
+Feel free to check the [issues page](../../issues/).
 
-> Contributions, issues, and feature requests are welcome!
+## Show your support
 
-> Feel free to check the [issues page](https://github.com/sekoviper/book-store/issues).
+Give a ⭐️ if you like this project!
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Acknowledgments
 
-## ⭐️ Show your support <a name="support"></a>
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-> Feel free to send a like to the project!
+## 📝 License
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> I would like to thank Microverse team for their efforts!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 📝 License <a name="license"></a>
-
-> This project is [MIT](./LICENSE) licensed.
-
+This project is [MIT](./MIT.md) licensed.

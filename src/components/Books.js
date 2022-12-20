@@ -3,10 +3,10 @@ import AddBook from './AddBook';
 import BooksList from './BooksList';
 
 const Books = () => {
-  const [books, useBooks] = useState([
+  const [books] = useState([
     { id: 1, title: 'Name the Tree', author: 'Seko' },
-    { id: 2, title: 'How We became Men', author: 'SekoViper' },
-    { id: 3, title: 'In the Wonder', author: 'Yonas' },
+    { id: 2, title: 'How We became Menhhhhhh', author: 'SekoViper' },
+    { id: 3, title: 'In the Wonders', author: 'Yonas' },
   ]);
 
   return (
