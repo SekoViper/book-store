@@ -15,6 +15,11 @@ export default function categoriesReducer(state = initialState, action = {}) {
 }
 
 // action creator
-export function checkStatus() {
-  return actions.CHECK_STATUS;
+export function checkStatus(status) {
+  return {
+    type: actions.CHECK_STATUS,
+    payload: {
+      status,
+    },
+  };
 }
