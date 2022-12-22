@@ -1,6 +1,6 @@
 import { React, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getBookssss } from '../redux/books/books';
+import { getBooks } from '../redux/books/books';
 import AddBook from './AddBook';
 import BooksList from './BooksList';
 
@@ -9,7 +9,7 @@ const Books = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getBookssss());
+    dispatch(getBooks());
   }, [dispatch]);
 
   return (
