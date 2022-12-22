@@ -59,12 +59,19 @@ a {
 }
 
 .book--title {
-  font-size: 20px;
+  font-size: 22px;
+  font-weight: 700;
+
 }
 
-.card__sub__name {
+.book-category {
+  font-size: 14px;
+}
+
+.book-author {
   font-weight: var(--weight);
   color: var(--blue);
+  font-size: 14px;
 }
 
 .btn__primary {
@@ -75,12 +82,17 @@ a {
   margin-bottom: 0;
   background-color: transparent;
   border-right: 1px solid #99a9b1;
+  font-size: 14px;
 }
 
 a:hover,
 .btn__primary:hover {
   text-decoration: 1px underline var(--blue);
   transition: var(--ease);
+}
+
+.current-chapter {
+  font-size: 14px;
 }
 
 .btn__none {

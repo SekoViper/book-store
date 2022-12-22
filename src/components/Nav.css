@@ -3,7 +3,9 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--white);
-  padding: 10px 5%;
+  margin: 20px auto;
+  width: 90%;
+  padding: 30px;
 }
 
 .menu {
@@ -39,7 +41,7 @@ a:hover,
 
 .logo {
   color: var(--blue);
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .box__heading3 {

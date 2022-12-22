@@ -17,7 +17,7 @@ const BooksList = ({ books }) => {
           <div className="left__content">
             <p className="book-category">Fiction</p>
             <p className="book--title">{book.title}</p>
-            <p className="card__sub__name">{book.author}</p>
+            <p className="book-author">{book.author}</p>
             <button className="btn__primary btn__none2" type="button">Comment</button>
             <button className="btn__primary" type="button" onClick={() => onDelete(book.item_id)}>Remove</button>
             <button className="btn__primary btn__none" type="button">Edit</button>
@@ -35,9 +35,9 @@ const BooksList = ({ books }) => {
               </div>
             </div>
             <div className="right__content">
-              <p className="right__content__name">CURRENT CHAPTER</p>
-              <h3 className="right__content__heading">Chapter 17</h3>
-              <button type="button" className="btn__secondary">UPDATE PROGRESS</button>
+              <p className="current-chapter">CURRENT CHAPTER</p>
+              <h3 className="right__content__heading current-chapter">Chapter 17</h3>
+              <button type="button" className="btn__secondary current-chapter">UPDATE PROGRESS</button>
             </div>
           </div>
         </div>

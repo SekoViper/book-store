@@ -1,11 +1,12 @@
 .form__container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  padding-bottom: 40px;
+  padding-bottom: 140px;
 }
 
 .form__heading {
   color: var(--ash);
+  padding-left: 12px;
 }
 
 .input {
@@ -21,11 +22,16 @@
   width: 60%;
 }
 
+.form-group {
+  display: flex;
+  justify-content: space-around;
+}
+
 input {
   color: black;
   font-weight: 500;
   padding: 7px;
-  margin: 0 9px 0 0;
+  margin: 0 25px 0 0;
 }
 
 #select {
