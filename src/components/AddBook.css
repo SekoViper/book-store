@@ -1,0 +1,47 @@
+.form__container {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.form__heading {
+  color: var(--ash);
+}
+
+.input {
+  background-color: var(--white);
+  border: 0.2px solid var(--ash);
+  margin-right: 20px;
+  color: var(--ash);
+  padding: 5px;
+  outline: none;
+}
+
+.book-title {
+  width: 60%;
+}
+
+input {
+  color: black;
+  font-weight: 500;
+  padding: 7px;
+  margin: 0 9px 0 0;
+}
+
+#select {
+  width: 23%;
+}
+
+#select:hover {
+  color: black;
+}
+
+.btn__form {
+  width: 11%;
+  padding: 10px;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 2px;
+  font-weight: 500;
+  border: 0.5px solid var(--blue);
+}

@@ -1,8 +1,7 @@
 import { PropTypes } from 'prop-types';
 import { useDispatch } from 'react-redux';
 import { removeBook } from '../redux/books/books';
-import styles from './BookList.module.css';
-
+import './BookList.css';
 // generate a book
 const BooksList = ({ books }) => {
   const dispatch = useDispatch();
@@ -12,28 +11,34 @@ const BooksList = ({ books }) => {
   };
 
   return (
-    <div className={styles.books}>
+    <div className="bar__cards">
       {books.length > 0 ? books.map((book) => (
-        <div className={styles.book__container} key={book.item_id}>
-          <div className="book__details">
-            <p className="book__category">{book.category}</p>
-            <p className="book__title">{book.title}</p>
-            <p className="book__author">{book.author}</p>
-            <p className={styles.book__response}>
-              <span><button type="button">Comment</button></span>
-              <span><button type="button" onClick={() => onDelete(book.item_id)}>Remove</button></span>
-              <span><button type="button">Edit</button></span>
-            </p>
+        <div className="bar__container" key={book.item_id}>
+          <div className="left__content">
+            <p className="book-category">Fiction</p>
+            <p className="book--title">{book.title}</p>
+            <p className="card__sub__name">{book.author}</p>
+            <button className="btn__primary btn__none2" type="button">Comment</button>
+            <button className="btn__primary" type="button" onClick={() => onDelete(book.item_id)}>Remove</button>
+            <button className="btn__primary btn__none" type="button">Edit</button>
           </div>
 
-          <div className="book__level">
-            <p>Level</p>
-          </div>
-
-          <div className="book__chapter">
-            <p>Current Chapter</p>
-            <p>Chapter 15</p>
-            <button type="button">Update Progress</button>
+          <div className="main__bar__right__content">
+            <div className="main__bar">
+              <div className="bar">
+                <div className="bar__in" />
+                <div className="bar__in2" />
+              </div>
+              <div>
+                <p className="percent">64%</p>
+                <p className="score">Completed</p>
+              </div>
+            </div>
+            <div className="right__content">
+              <p className="right__content__name">CURRENT CHAPTER</p>
+              <h3 className="right__content__heading">Chapter 17</h3>
+              <button type="button" className="btn__secondary">UPDATE PROGRESS</button>
+            </div>
           </div>
         </div>
       )) : 'No Books Found'}

@@ -48,7 +48,18 @@ h6 {
   overflow-wrap: break-word;
 }
 
-#root,
 #__next {
+  isolation: isolate;
+}
+
+:root {
+  --blue: #1a87da;
+  --ash: #99a9b1;
+  --ash2: #f3f3f6;
+  --ash3: #fafafa;
+  --white: #fff;
+  --ease: 0.5s ease;
+  --weight: 300;
+
   isolation: isolate;
 }
