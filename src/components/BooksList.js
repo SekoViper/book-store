@@ -13,15 +13,15 @@ const BooksList = ({ books }) => {
 
   return (
     <div className={styles.books}>
-      {books.map((book) => (
-        <div className={styles.book__container} key={book.id}>
+      {books.length > 0 ? books.map((book) => (
+        <div className={styles.book__container} key={book.item_id}>
           <div className="book__details">
-            <p className="book__category">Book Category</p>
+            <p className="book__category">{book.category}</p>
             <p className="book__title">{book.title}</p>
             <p className="book__author">{book.author}</p>
             <p className={styles.book__response}>
               <span><button type="button">Comment</button></span>
-              <span><button type="button" onClick={() => onDelete(book.id)}>Remove</button></span>
+              <span><button type="button" onClick={() => onDelete(book.item_id)}>Remove</button></span>
               <span><button type="button">Edit</button></span>
             </p>
           </div>
@@ -36,7 +36,7 @@ const BooksList = ({ books }) => {
             <button type="button">Update Progress</button>
           </div>
         </div>
-      ))}
+      )) : 'No Books Found'}
     </div>
   );
 };
@@ -45,9 +45,10 @@ const BooksList = ({ books }) => {
 BooksList.defaultProps = { books: null };
 BooksList.propTypes = {
   books: PropTypes.arrayOf(PropTypes.shape({
-    id: PropTypes.string,
-    title: PropTypes.string,
+    item_id: PropTypes.string,
+    category: PropTypes.string,
     author: PropTypes.string,
+    title: PropTypes.string,
   })),
 };
 
