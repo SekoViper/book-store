@@ -1,0 +1,55 @@
+.main__heading__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  margin: 20px auto;
+  width: 90%;
+  padding: 30px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+  padding-top: 10px;
+}
+
+.link-items {
+  font-size: 18px;
+  color: var(--ash);
+}
+
+a {
+  color: var(--ash);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover,
+.btn__primary:hover {
+  text-decoration: 1px underline var(--blue);
+  transition: var(--ease);
+}
+
+.box__headings {
+  display: flex;
+  gap: 20px;
+}
+
+.logo {
+  color: var(--blue);
+  font-size: 30px;
+}
+
+.box__heading3 {
+  font-weight: var(--weight);
+}
+
+.account {
+  color: var(--blue);
+  font-size: 30px;
+  cursor: pointer;
+}

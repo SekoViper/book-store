@@ -1,0 +1,53 @@
+.form__container {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 140px;
+}
+
+.form__heading {
+  color: var(--ash);
+  padding-left: 12px;
+}
+
+.input {
+  background-color: var(--white);
+  border: 0.2px solid var(--ash);
+  margin-right: 20px;
+  color: var(--ash);
+  padding: 5px;
+  outline: none;
+}
+
+.book-title {
+  width: 60%;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  color: black;
+  font-weight: 500;
+  padding: 7px;
+  margin: 0 25px 0 0;
+}
+
+#select {
+  width: 23%;
+}
+
+#select:hover {
+  color: black;
+}
+
+.btn__form {
+  width: 11%;
+  padding: 10px;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 2px;
+  font-weight: 500;
+  border: 0.5px solid var(--blue);
+}

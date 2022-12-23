@@ -1,0 +1,182 @@
+a {
+  text-decoration: none;
+}
+
+.box__headings {
+  display: flex;
+  gap: 20px;
+}
+
+.box__heading1 {
+  color: var(--blue);
+}
+
+.box__heading2,
+.box__heading3 {
+  font-size: 13px;
+  color: var(--ash);
+}
+
+.box__heading3 {
+  font-weight: var(--weight);
+}
+
+.logo {
+  color: var(--blue);
+  font-size: 30px;
+}
+
+.content__box {
+  width: 85%;
+  height: auto;
+  background-color: var(--ash3);
+  margin: 100px 8%;
+  box-shadow: 7px 11px 40px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 11px 40px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 11px 40px -5px rgba(0, 0, 0, 0.75);
+}
+
+.bar__cards {
+  padding: 40px 5%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bar__container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: var(--white);
+  padding: 20px;
+  border: 1px solid var(--ash2);
+}
+
+.left__content {
+  line-height: 30px;
+}
+
+.book--title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.book-category {
+  font-size: 14px;
+}
+
+.book-author {
+  font-weight: var(--weight);
+  color: var(--blue);
+  font-size: 14px;
+}
+
+.btn__primary {
+  color: var(--blue);
+  font-weight: var(--weight);
+  border: none;
+  margin: 10px 0;
+  margin-bottom: 0;
+  background-color: transparent;
+  border-right: 1px solid #99a9b1;
+  font-size: 14px;
+}
+
+a:hover,
+.btn__primary:hover {
+  text-decoration: 1px underline var(--blue);
+  transition: var(--ease);
+}
+
+.current-chapter {
+  font-size: 14px;
+}
+
+.btn__none {
+  border: none;
+}
+
+.btn__none2 {
+  padding-left: 0;
+}
+
+.main__bar,
+.main__bar__right__content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 60px;
+}
+
+.main__bar__right__content {
+  flex-wrap: wrap;
+}
+
+.main__bar {
+  border-right: 1px solid var(--ash);
+  padding-right: 60px;
+}
+
+.bar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--blue);
+  position: relative;
+}
+
+.bar__in {
+  width: 30px;
+  height: 30px;
+  background-color: var(--ash);
+  position: absolute;
+  border-top-left-radius: 100%;
+  border: 1px solid var(--ash);
+}
+
+.bar__in2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.percent {
+  font-size: 25px;
+}
+
+.right__content {
+  line-height: 25px;
+}
+
+.right__content__heading {
+  --weight2: 500;
+
+  font-weight: var(--weight2);
+}
+
+.btn__secondary {
+  margin-top: 10px;
+  background-color: var(--blue);
+  color: var(--white);
+  font-weight: var(--weight);
+  padding: 5px 15px;
+  border-radius: 2px;
+  border: 0.5px solid var(--blue);
+}
+
+.btn__secondary:hover,
+.btn__form:hover {
+  background-color: transparent;
+  transition: var(--ease);
+  color: var(--blue);
+}
+
+.hr {
+  padding: 0 5%;
+}
