@@ -53,3 +53,18 @@ a:hover,
   font-size: 30px;
   cursor: pointer;
 }
+
+/* ____________________mobile view_________________ */
+@media only screen and (max-width: 768px) {
+  .main__heading__section {
+    padding: 10px 0 10px 10px;
+  }
+
+  .account {
+    display: none;
+  } 
+
+  .menu {
+    display: none;
+  }
+}
