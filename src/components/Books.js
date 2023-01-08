@@ -9,7 +9,9 @@ const Books = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(getBooks());
+    if (books === 0) {
+      dispatch(getBooks());
+    }
   }, [dispatch]);
 
   return (
